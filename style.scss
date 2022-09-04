@@ -419,4 +419,91 @@
             }
         }
     }
+    // section covarage
+    .covarage{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        .covarage__container{
+            margin: 100px 0 50px ;
+            width: 95%;
+            max-width: 1333px;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            .covarage__left{
+                width: 50%;
+                height: auto;
+                .covarage__subtitle{
+                    padding: 10px 0 20px 0;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 13px;
+                    line-height: 20px;
+                    color: var(--title-color);
+                    letter-spacing: 0.05px;
+                    text-transform: uppercase;
+                }
+                .covarage__title{
+                    width: 95%;
+                    color: var(--title-color);
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 46px;
+                }
+                .covarage__text{
+                    padding: 30px 0;
+                    width: 90%;
+                    color: var(--color-text);
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    letter-spacing: 0.02px;
+                }
+            }
+            .covarage__right{
+                width: 50%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 560px;
+                    height: 298px;
+                }
+            }
+            .covarage__foot{
+                padding: 40px 0;
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                .covarage__card{
+                    list-style: none;
+                    width: auto;
+                    .covarage__number{
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 60px;
+                        line-height: 78px;
+                        color: #F0A446;
+                    }
+                    .covarage__info{
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 22px;
+                        letter-spacing: 0.02px;
+                        width: 240px;
+                        height: auto;
+                        color: var(--color-title);
+                    }
+                }
+            }
+        }
+    }
+    // section 
 }

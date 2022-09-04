@@ -505,3 +505,105 @@
   width: 500px;
   letter-spacing: 0.02px;
 }
+.body .covarage {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.body .covarage .covarage__container {
+  margin: 100px 0 50px;
+  width: 95%;
+  max-width: 1333px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.body .covarage .covarage__container .covarage__left {
+  width: 50%;
+  height: auto;
+}
+.body .covarage .covarage__container .covarage__left .covarage__subtitle {
+  padding: 10px 0 20px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--title-color);
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+}
+.body .covarage .covarage__container .covarage__left .covarage__title {
+  width: 95%;
+  color: var(--title-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+}
+.body .covarage .covarage__container .covarage__left .covarage__text {
+  padding: 30px 0;
+  width: 90%;
+  color: var(--color-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02px;
+}
+.body .covarage .covarage__container .covarage__right {
+  width: 50%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.body .covarage .covarage__container .covarage__right img {
+  width: 560px;
+  height: 298px;
+}
+.body .covarage .covarage__container .covarage__foot {
+  padding: 40px 0;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.body .covarage .covarage__container .covarage__foot .covarage__card {
+  list-style: none;
+  width: auto;
+}
+.body .covarage .covarage__container .covarage__foot .covarage__card .covarage__number {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #F0A446;
+}
+.body .covarage .covarage__container .covarage__foot .covarage__card .covarage__info {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.02px;
+  width: 240px;
+  height: auto;
+  color: var(--color-title);
+}
