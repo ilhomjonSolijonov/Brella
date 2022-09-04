@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+// root
+:root{
+    --title-color:#214E41;
+    --btn-bg: #43806C;
+    --color-fff: #fff;
+}
+
+.body{
+    width: 100%;
+    height: auto;
+    menu{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .menu__container{
+            max-width: 1333px;
+            width: 95%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            .menu__logo{
+                width: 30%;
+                height: auto;
+                .menu__content-logo{
+                    color: var(--title-color);
+                    font-weight: 500;
+                    font-size: 35px;
+                }   
+            }
+            .menu__links{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                li{
+                    list-style: none;
+                    .menu__link{
+                        text-decoration: none;
+                        color: var(--title-color);
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 20px;
+                    }
+                }
+            }
+            .menu__sign{
+                display: flex;
+                .menu__sign-btn{
+                    cursor: pointer;
+                    border: none;
+                    color: var(--color-fff);
+                    background-color: var(--btn-bg);
+                    padding: 10px 25px;
+                    border-radius: 6px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 20px;
+                }  
+                .menu__sign-btn:hover{
+                    transform: scale(1.02);
+                    transition: all 300ms;
+                    -webkit-transition: all 300ms;
+                    -moz-transition: all 300ms;
+                    -ms-transition: all 300ms;
+                    -o-transition: all 300ms;
+                    -webkit-transform: scale(1.02);
+                    -moz-transform: scale(1.02);
+                    -ms-transform: scale(1.02);
+                    -o-transform: scale(1.02);
+                } 
+                .menu__login{
+                    padding: 0 10px 0 0;
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    h4{
+                        line-height: 20px;
+                        font-size: 17px;
+                        color: var(--title-color);
+                        padding: 0 5px 0 10px;
+                        font-weight: 600;
+                    }
+                    i{
+                        color: var(--title-color);
+                        font-size: 22px;
+                    }
+                }
+                .menu__language{
+                    cursor: pointer;
+                    color: var(--title-color);
+                    font-size: 22px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

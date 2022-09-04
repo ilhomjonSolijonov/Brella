@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+:root {
+  --title-color:#214E41;
+  --btn-bg: #43806C;
+  --color-fff: #fff;
+}
+
+.body {
+  width: 100%;
+  height: auto;
+}
+.body menu {
+  width: 100%;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.body menu .menu__container {
+  max-width: 1333px;
+  width: 95%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.body menu .menu__container .menu__logo {
+  width: 30%;
+  height: auto;
+}
+.body menu .menu__container .menu__logo .menu__content-logo {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 35px;
+}
+.body menu .menu__container .menu__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+.body menu .menu__container .menu__links li {
+  list-style: none;
+}
+.body menu .menu__container .menu__links li .menu__link {
+  text-decoration: none;
+  color: var(--title-color);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+.body menu .menu__container .menu__sign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.body menu .menu__container .menu__sign .menu__sign-btn {
+  cursor: pointer;
+  border: none;
+  color: var(--color-fff);
+  background-color: var(--btn-bg);
+  padding: 10px 25px;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+.body menu .menu__container .menu__sign .menu__sign-btn:hover {
+  transform: scale(1.02);
+  transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -ms-transition: all 300ms;
+  -o-transition: all 300ms;
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+}
+.body menu .menu__container .menu__sign .menu__login {
+  padding: 0 10px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+.body menu .menu__container .menu__sign .menu__login h4 {
+  line-height: 20px;
+  font-size: 17px;
+  color: var(--title-color);
+  padding: 0 5px 0 10px;
+  font-weight: 600;
+}
+.body menu .menu__container .menu__sign .menu__login i {
+  color: var(--title-color);
+  font-size: 22px;
+}
+.body menu .menu__container .menu__sign .menu__language {
+  cursor: pointer;
+  color: var(--title-color);
+  font-size: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
