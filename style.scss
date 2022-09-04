@@ -351,4 +351,72 @@
             }
         }
     }
+    // section benefits
+    .benefits{
+        width: 100%;
+        height: 540px;
+        display: flex;
+        align-items: center;
+        background-color: #E3EEED;
+        .benefits__left{
+            width: 50%;
+            height: auto;
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            ul{
+                li{
+                    list-style: none;
+                }
+               .benefits__subtitle{
+                    color: var(--title-color);
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    letter-spacing: 0.05px;
+                    text-transform: uppercase;
+                    padding:  10px 0;
+                }
+                .benefits__title{
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 42px;
+                    color: var(--title-color);
+                    padding: 20px 0;
+                    i{
+                        margin-left: 20px;
+                    }
+                }
+                .benefis__content{
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 28px;
+                    line-height: 42px;
+                    color: var(--title-color);
+                } 
+            }
+            
+        }
+        .benefits__right{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            width: 50%;
+            height: 100%;
+            background-color: var(--title-color);
+            p{
+                color: var(--color-fff);
+                font-style: normal;
+                font-weight: 400;
+                font-size: 19px;
+                line-height: 34px;
+                width: 500px;
+                letter-spacing: 0.02px;
+            }
+        }
+    }
 }
