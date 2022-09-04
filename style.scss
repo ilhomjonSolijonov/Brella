@@ -699,5 +699,67 @@
             }
         }
     }
-    // section
+    // section explore{
+    .explore{
+        width: 100%;
+        height: 550px;
+        display: flex;
+        background-color: #E3EEED;
+        .explore__left{
+            width: 50%;
+            height: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .explore__right{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            p, h1{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 46px;
+                color: var(--title-color);
+                width: 420px;
+            }
+            h1{
+                padding: 45px  0 30px;
+            }
+            button{
+                background-color: var(--btn-bg);
+                color: var(--color-fff);
+                font-style: normal;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 21px;
+                letter-spacing: 0.02px;
+                border: 2px solid var(--btn-bg);
+                padding: 13px 25px;
+                border-radius: 6px;
+                margin-left: -290px;
+                cursor: pointer;
+            }
+            button:hover{
+                transform: scale(1.02);
+                -webkit-transform: scale(1.02);
+                -moz-transform: scale(1.02);
+                -ms-transform: scale(1.02);
+                -o-transform: scale(1.02);
+                transition: all 300ms;
+                -webkit-transition: all 300ms;
+                -moz-transition: all 300ms;
+                -ms-transition: all 300ms;
+                -o-transition: all 300ms;
+                background-color: transparent;
+                color: var(--btn-bg);
+            }
+        }
+    }
 }
