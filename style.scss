@@ -505,5 +505,66 @@
             }
         }
     }
-    // section 
+    // section experience
+    .experience{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        .experience__container{
+            padding: 50px 0 0;
+            width: 95%;
+            max-width: 1333px;
+            height: auto;
+            display: flex;
+            justify-content: space-around ;
+            align-items: center;
+            .experience__left{
+                list-style: none;
+                img{
+                    width: 296px;
+                    height: 500px;
+                }
+            } 
+            .experience__right{
+                list-style: none;
+                .experience__subtitle{
+                    color: var(--title-color);
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 13px;
+                    line-height: 20px;
+                    letter-spacing: 0.05px;
+                    text-transform: uppercase;
+                }
+                .experience__title{
+                    padding: 25px 0 35px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 46px;
+                    color: var(--title-color);
+                    width: 480px;
+                }
+                .experience__text{
+                    padding: 0 0 25px;
+                    color: var(--color-text);
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    letter-spacing: 0.02px;
+                    width: 540px;
+                }
+                .experience__link{
+                    color: var(--title-color);
+                    letter-spacing: 0.02px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 18px;
+                }
+            }
+        }
+    }
 }
